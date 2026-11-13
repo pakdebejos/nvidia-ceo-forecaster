@@ -32,7 +32,7 @@ from statistics import NormalDist
 INPUT_DIR = os.environ.get("MAKEFUN_INPUT_DIR", "/input")
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
-HGRID = [1, 2, 3, 4, 5, 6, 8, 10, 13, 16, 20, 25, 30, 40, 50, 65, 80, 100, 125, 155, 195, 240]
+HGRID = [1, 2, 3, 4, 5, 6, 8, 10, 13, 16, 20, 25, 30, 40, 50, 65, 80, 100, 125, 155, 175, 195, 215, 240]
 LOOKBACK = 2880          # minutes of history used for the change distribution
 WQ_HALFLIFE = 720.0      # recency half-life of a change, in minutes
 BASE_SIGMA = 0.0025      # the house baseline's spread per sqrt-minute
